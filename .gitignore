@@ -1,0 +1,5 @@
+# tailwincss cli standalone binary
+tailwincss-linux-x64
+
+# ignore node modules
+node_modules/
