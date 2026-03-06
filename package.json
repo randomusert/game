@@ -1,8 +1,11 @@
 {
   "devDependencies": {
-    "tailwindcss": "^3.4.13"
+    "tailwindcss": "^4.1.4"
   },
   "dependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "express": "^5.2.1",
+    "mclick-theme": "^0.7.0",
     "moneyclick-lib": "^1.0.0"
   }
 }

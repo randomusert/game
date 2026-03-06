@@ -4,6 +4,6 @@ echo building
 SOURCE="src"
 
 
-npx tailwindcss@3.4.14 -i ./$SOURCE/conf.css -o ./$SOURCE/styles.css --watch
+npx @tailwindcss/cli -i ./src/conf.css -o ./src/styles.css --watch  
 
 
