@@ -1,3 +1,5 @@
 import { MkViruses } from "./func.js";
 
-export { MkViruses };
+if (typeof window !== "undefined") {
+    window.MkViruses = MkViruses;
+}
