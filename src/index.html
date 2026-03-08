@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Secret clickers</title>
-    <style type="text/css" href="./styles.css"></style>
+    <style type="text/css" href="./styles.css" rel="stylesheet"></style>
     <script type="module" src="javascript/index.js"></script>
 
     
 </head>
 <body class="bg-background text-money font-sans h-screen">
+
+    <div class="w-full bg-surface text-gold text-xl font-display p-4 shadow-md flex justify-center">
+        Viruses: <span id="Virus" class="ml-2 font-bold">0</span>
+    </div>
+
+
     <h1 class="text-2xl"><span id="Virus" class="text-2xl">0</span>  viruses</h1>
 
 
     <button class="bg-primary text-white px-4 py-2 rounded text-money" onclick="MkViruses()">Make Viruses</button>
+
 
 </body>
 </html>
