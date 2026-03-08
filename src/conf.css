@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght,GRAD@0,17..18,400..700,-50..200;1,17..18,400..700,-50..200&display=swap');
 
 @theme {
+    /* Font config */
     --font-display: 'Google Sans', sans-serif;
 
+    /* Color config */
     --color-bg-primary: #404040;
     --color-bg-secondary: #363434;
     --color-button-primary: #a8a7a7;

@@ -9,18 +9,19 @@
 
     
 </head>
-<body class="bg-background text-money font-sans h-screen">
+<body>
+    <div class="bg-bg-primary font-sans h-screen" id="root">
 
-    <div class="w-full bg-surface text-gold text-xl font-display p-4 shadow-md flex justify-center">
-        Viruses: <span id="Virus" class="ml-2 font-bold">0</span>
+        <div class="w-full bg-bg-primary text-bg-primary text-xl font-display p-4" id="Counters">
+        <h1 class="flex font-display justify-center pl-140">🐛 Viruses: <span id="Virus" class="font-display">0</span></h1> <h1 class="flex font-display justify-center">💻 Malware: <span id="Malware" class="font-display">0</span></h1>
+        </div>
+
+        <button class="bg-bg-primary text-text-primary px-4 py-2 rounded border border-text-primary" onclick="MkViruses()" id="MkVirusesBtn">Make Viruses</button>
+
+        <button class="bg-bg-primary text-text-primary px-4 py-2 rounded-2xl border-text-primary" onclick="MkMalware()" id="MkMalwareBtn">Make Malware</button>
     </div>
 
-
-    <h1 class="text-2xl"><span id="Virus" class="text-2xl">0</span>  viruses</h1>
-
-
-    <button class="bg-primary text-white px-4 py-2 rounded text-money" onclick="MkViruses()">Make Viruses</button>
-
+    
 
 </body>
 </html>
