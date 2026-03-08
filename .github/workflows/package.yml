@@ -21,7 +21,7 @@ jobs:
     - name: package source
       run: zip -r secret-clickers.zip src/
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v7
       with:
         name: secret-clickers-package
         path: secret-clickers.zip
